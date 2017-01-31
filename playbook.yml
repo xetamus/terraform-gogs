@@ -1,0 +1,4 @@
+- hosts: gogs
+  remote_user: ubuntu
+  roles:
+    - geerlingguy.gogs
